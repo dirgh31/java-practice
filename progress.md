@@ -6,13 +6,15 @@
 - [x] Functions
 
 ## Arrays
-- [ ] Basics
-- [ ] Searching
-- [ ] Sorting
+- [x] Basics
+- [x] Searching
+- [x] Sorting
 
 ## Strings
-- [ ] Basics
-- [ ] StringBuilder
+- [x] Basics
+- [x] StringBuilder
 
 ## Bit Manipulation
-- [ ] Basics
+- [x] Basics
+
+## Recursion
