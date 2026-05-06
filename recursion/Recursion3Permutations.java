@@ -1,5 +1,7 @@
 public class Recursion3Permutations{
+
     public static void printPermutations(String str, String permutation) {
+        
         if(str.length() == 0) {
             System.out.println(permutation);
             return;

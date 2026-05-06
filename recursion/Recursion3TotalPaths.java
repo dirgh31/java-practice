@@ -1,6 +1,8 @@
 public class Recursion3TotalPaths{
+
     public static int countPaths(int i, int j, int n, int m) {
 
+        // base cases,
         if(i == n || j == m) {
             return 0;
         }

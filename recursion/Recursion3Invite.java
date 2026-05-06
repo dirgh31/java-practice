@@ -15,7 +15,7 @@ public class Recursion3Invite{
         return ways1 + ways2;
     }
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         System.out.println(callGuests(n));
         
     }
