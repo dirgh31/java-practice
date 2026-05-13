@@ -1,4 +1,4 @@
-class Backtracking1{
+class Backtracking{
 
     public static void printPermutation(String str, String perm, int idx) {
 
