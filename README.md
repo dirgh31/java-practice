@@ -9,6 +9,8 @@ This repository contains my Java learning journey.
 - Strings
 - Sorting
 - Bit Manipulation
+- Recursion
 
 ## 🔄 Ongoing
-- Recursion
+- DSA
+
