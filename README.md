@@ -10,6 +10,7 @@ This repository contains my Java learning journey.
 - Sorting
 - Bit Manipulation
 - Recursion
+- OOPS
 
 ## 🔄 Ongoing
 - DSA
