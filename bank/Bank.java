@@ -1,6 +1,6 @@
 package bank;
 
-public class Bank{
+public class Bank {
     public static void main(String[] args) {
         Account account1 = new Account();
         account1.name = "Tony Stark";
@@ -8,6 +8,4 @@ public class Bank{
         account1.setPassword("abcd");
         System.out.println(account1.getPassword());
     }
-
 }
-
