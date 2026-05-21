@@ -1,4 +1,4 @@
-// LL custom implementation
+// Built LinkedList manually from scratch
 
  class LL {
     Node head;
