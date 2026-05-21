@@ -1,8 +1,9 @@
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class ArrayLists {
+public class AL {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         // ArrayList<String> list2 = new ArrayList<String>();
@@ -46,3 +47,6 @@ public class ArrayLists {
     }
     
 }
+
+// Time complexity for inserting an array in ArrayList is : O(n).
+// Time complexity for searching an array in ArrayList is: O(1).
