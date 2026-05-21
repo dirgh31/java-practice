@@ -1,4 +1,4 @@
-// Java LinkedList collection practice
+// LinkedList collection practice
 
 import java.util.*;
 
