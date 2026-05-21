@@ -1,5 +1,5 @@
- //Custom LinkedList implementation
- 
+// LL custom implementation
+
  class LL {
     Node head;
     private int size;
