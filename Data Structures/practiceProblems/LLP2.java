@@ -8,10 +8,10 @@ class Node{
         this.next = null;
     }
 }
-class LinkedList{
+class ConstructLinkedList{
     Node head;
 
-    LinkedList() {
+    ConstructLinkedList() {
         this.head = null;
     }
     public void addLast(int data){
@@ -55,7 +55,7 @@ public void deleteGreaterThan25() {
 public class LLP2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedList ll = new LinkedList();
+        ConstructLinkedList ll = new ConstructLinkedList();
 
         System.out.print("How many elements? ");
         int n = sc.nextInt();
