@@ -1,3 +1,4 @@
+ // Solved LinkedList practice problem 1
 class Node{
     int data; // stores the value 
     Node next; // points to the next node
@@ -14,14 +15,11 @@ class LinkedList{
     LinkedList() {
         this.head = null; // empty list a
     }
-
-}
-public void addFirst(int data){
+    public void addFirst(int data){
     Node newNode = new Node(data);
     newNode.next = head; // new node points to current head
-    head = newNode.next; // new node becomes the new head
+    head = newNode; // new node becomes the new head
 }
-
 public int search(int target) {
     Node current = head;
     int index = 0;
@@ -36,10 +34,11 @@ public int search(int target) {
     return -1;
 }
 
+}
+
 public class LLP1 {
     public static void main(String[] args) {
     LinkedList ll = new LinkedList();
-
     int[] elements = {1,5,7,3,8,2,3};
     for(int num: elements) {
         ll.addFirst(num);
@@ -53,5 +52,3 @@ public class LLP1 {
     
  }
 }
-
-
