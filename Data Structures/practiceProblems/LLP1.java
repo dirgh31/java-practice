@@ -1,4 +1,5 @@
- // Solved LinkedList practice problem 1
+ // First LinkedList practice problem
+
 class Node{
     int data; // stores the value 
     Node next; // points to the next node
