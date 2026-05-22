@@ -13,7 +13,7 @@ class LinkedList{
     Node head; // starting of the list
 
     LinkedList() {
-        this.head = null; // empty list a
+        this.head = null; // empty list 
     }
     public void addFirst(int data){
     Node newNode = new Node(data);
