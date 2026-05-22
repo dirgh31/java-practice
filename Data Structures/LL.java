@@ -1,4 +1,5 @@
 // Built LinkedList manually from scratch
+// Reverse LinkedList updated
 
  class LL {
     Node head;
