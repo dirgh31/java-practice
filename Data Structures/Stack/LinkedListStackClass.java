@@ -1,3 +1,4 @@
+package Stack;
 public class LinkedListStackClass {
     static class Node {
         int data;
