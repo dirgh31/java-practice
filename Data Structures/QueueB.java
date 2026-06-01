@@ -37,7 +37,7 @@ public class QueueB{
             rear--;
             return front;
         }
-        //Peek
+        //Front
         public static int peek() {
             if(isEmpty()) {
                 System.out.println("empty queue");
