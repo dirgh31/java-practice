@@ -24,7 +24,7 @@ public class QueueB{
             }
             arr[++rear] = data;
         }
-        // Dequeue
+        // Deque
         public static int remove() {
             if(isEmpty()) {
                 System.out.println("empty queue");

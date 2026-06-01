@@ -16,7 +16,7 @@ public class QueueC {
         public static boolean isFull() {
             return (rear+1)%size == front;
         }
-        //Enqueue
+        //Enque
         public static void add(int data) {
             if(isFull()){
                 System.out.println("Overflow");
@@ -29,7 +29,7 @@ public class QueueC {
             rear = (rear+1)%size;
             arr[rear] = data;
         }
-        //Dequeue
+        //Deque
         public static int remove() {
             if(isEmpty()) {
                 System.out.println("empty queue");

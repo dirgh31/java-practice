@@ -14,7 +14,7 @@ public class QueueLL {
         public static boolean isEmpty() {
             return head == null && tail == null;
         }
-        // enqueue
+        // enque
         public static void add(int data){
             Node newNode = new Node(data);
             if(isEmpty()) {
@@ -24,7 +24,7 @@ public class QueueLL {
                 tail = newNode;
             }
         }
-        // dequeue
+        // deque
         public static int remove() {
             if(isEmpty()) {
                 System.out.println("Empty queue");
