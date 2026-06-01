@@ -1,3 +1,4 @@
+package Queue;
 //Queue using 2 stacks
 import java.util.*;
 

@@ -1,3 +1,4 @@
+package Queue;
 // circular queue using array 
 public class QueueC {
     static class Queue{

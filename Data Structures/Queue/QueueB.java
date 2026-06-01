@@ -1,3 +1,4 @@
+package Queue;
 // queue using array
 public class QueueB{
     static class Queue{
