@@ -150,38 +150,13 @@ public class BinaryTrees1 {
         super(data);
     }
 }
-    
-    public static boolean isIdentical(TreeNode root, TreeNode subRoot) {
-        if(subRoot == null && root == null) {
-            return true;
-        }
-        if(root == null || subRoot == null) {
-            return false;
-        }
-        if(root.data == subRoot.data) {
-            return isIdentical((TreeNode)root.left, ((TreeNode)subRoot.left)) && isIdentical((TreeNode)root.right, (TreeNode)subRoot.right);
-        }
-        return false;
-    }   
-    public static boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if(subRoot == null) {
-            return true;
-        }
-        if(root == null) {
-            return false;
-        }
-        if(isIdentical(root,subRoot)) {
-            return true;
-        }
-        return isSubtree((TreeNode)root.left,subRoot) || isSubtree((TreeNode)root.right, subRoot);
-    }
     public static void main(String[] args) {
         int nodes[] = {1,2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         System.out.println(root.data);
         // preorder(root);
-        // inorder(root);
+         inorder(root);
         // postorder(root);
         // levelOrder(root);
         // height(root);
